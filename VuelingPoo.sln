@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VuelingPoo", "VuelingPoo\VuelingPoo.csproj", "{A405416A-BAE4-42D8-9533-ADA4DCA3FB41}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Formacion", "Formacion", "{55BC9205-0E2E-4D23-9075-AAD716AB9F2C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,6 +20,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A405416A-BAE4-42D8-9533-ADA4DCA3FB41} = {55BC9205-0E2E-4D23-9075-AAD716AB9F2C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C218A9BB-668D-47E0-AFE6-0F31C9DFA6E0}
