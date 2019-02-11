@@ -6,14 +6,15 @@ using System.Threading.Tasks;
 
 namespace VuelingPoo
 {
-    class Cliente : IDisposable
+    internal class Cliente : IDisposable
     {
         public string Nombre { get; set; }
 
 
         public void Dispose()
         {
-            throw new NotImplementedException();
+            throw new NotImplementedException("Aun no esta implementado");
+
         }
     }
 }

@@ -8,9 +8,14 @@ namespace PooVueling
 {
     public class Calculadora : ICalculadora, ICloneable
     {
+        private static readonly log4net.ILog log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
 
-        private static readonly log4net.ILog log
-      = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
+        public void Main()
+        {
+            log.Info("Hello logging world!");
+            Console.WriteLine("Hit enter");
+            Console.ReadLine();
+        }
 
         public object Clone()
         {
@@ -25,7 +30,7 @@ namespace PooVueling
             }
             catch (DivideByZeroException e)
             {
-                log.Info("Hello logging world!", e.Message);
+                log.Info("Dividiendo entre 0! {0}", e);
                 Console.WriteLine(e.Message);
 
                 throw;

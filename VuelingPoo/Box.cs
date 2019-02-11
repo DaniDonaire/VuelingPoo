@@ -29,17 +29,7 @@ namespace PooVueling
         public int[] Unboxing(object nums)
         {
             throw new NotImplementedException("Aun no esta implementado");
-            /*
-            int veces = 3;
-            int[] ints = new int[veces];
-
-            for (var num = 0; num < veces; num++)
-            {
-                ints[num] = (int)nums[num];
-            }
-
-            return ints;
-            */
+           
         }
     }
 }
