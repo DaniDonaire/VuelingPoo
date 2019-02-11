@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Box.cs" />
     <Compile Include="Calculadora.cs" />
+    <Compile Include="Cliente.cs" />
     <Compile Include="Dispose.cs" />
     <Compile Include="Extension.cs" />
     <Compile Include="ICalculadora.cs" />

@@ -1,4 +1,5 @@
 ﻿using System;
+using VuelingPoo;
 
 namespace PooVueling
 {
@@ -18,6 +19,9 @@ namespace PooVueling
             //Los ordenamos con el metodo de extension
             Extension ext = new Extension();
             ext.Ext(nums);
+
+            //Utilizacion dispose using
+            using (Cliente cli = new Cliente());
 
             Console.WriteLine("Pulsa intro para salir");
             var exit = Console.ReadLine();
