@@ -30,7 +30,7 @@ namespace PooVueling
             }
             catch (DivideByZeroException e)
             {
-                log.Info("Dividiendo entre 0! {0}", e);
+                log.Info("Dividiendo entre 0! ", e);
                 Console.WriteLine(e.Message);
 
                 throw;
