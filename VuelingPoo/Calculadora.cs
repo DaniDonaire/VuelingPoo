@@ -9,7 +9,8 @@ namespace PooVueling
     public class Calculadora : ICalculadora, ICloneable
     {
 
-
+        private static readonly log4net.ILog log
+      = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
 
         public object Clone()
         {
@@ -24,7 +25,9 @@ namespace PooVueling
             }
             catch (DivideByZeroException e)
             {
+                log.Info("Hello logging world!", e.Message);
                 Console.WriteLine(e.Message);
+
                 throw;
             }
         }
