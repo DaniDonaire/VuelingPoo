@@ -18,7 +18,15 @@ namespace PooVueling
 
         public int Division(int num1, int num2)
         {
-            return num1/num2;
+            try
+            {
+                return num1 / num2;
+            }
+            catch (DivideByZeroException e)
+            {
+                Console.WriteLine(e.Message);
+                throw;
+            }
         }
 
         public int Multiplicacion(int num1, int num2)
