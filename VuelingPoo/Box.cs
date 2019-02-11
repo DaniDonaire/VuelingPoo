@@ -9,13 +9,38 @@ namespace PooVueling
     class Box
     {
 
-        public int Boxing(int num1)
+        public object Boxing()
         {
-            throw new NotImplementedException();
+            int veces = 3;
+            String texto;
+            int[] ints = new int[veces];
+
+            for (var num = 0; num < veces; num++)
+            {
+                Console.WriteLine("\nDame el numero {0}:", (num+1));
+                texto = Console.ReadLine();
+                Int32.TryParse(texto, out ints[num]);
+            }
+
+            object o = ints;
+            return o;
         }
-        public int Unboxing(int num1)
+
+        public int[] Unboxing(object nums)
         {
-            throw new NotImplementedException();
+            throw new NotImplementedException("Aun no esta implementado");
+            /*
+            int veces = 3;
+            int[] ints = new int[veces];
+
+            for (var num = 0; num < veces; num++)
+            {
+                ints[num] = (int)nums[num];
+            }
+
+            return ints;
+            */
         }
     }
 }
+

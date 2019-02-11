@@ -7,18 +7,20 @@ namespace PooVueling
         static void Main(string[] args)
         {
             ///Main Class
-            ///
+            Console.WriteLine("Bienvenido al programa de consola de Dani");
 
-            Console.WriteLine("Introduzca un texto");
-            String texto;
-            texto = Console.ReadLine();
-            Console.WriteLine("El texto introducido es: " + texto);
 
+            //Cojemos 3 numeros y los ponemos en boxing
+            object nums;
+            Box box = new Box();
+            nums = box.Boxing();
+
+            //Los ordenamos con el metodo de extension
             Extension ext = new Extension();
-            ext.Ext();
+            ext.Ext(nums);
 
             Console.WriteLine("Pulsa intro para salir");
-            texto = Console.ReadLine();
+            var exit = Console.ReadLine();
 
             Environment.Exit(0);
 
