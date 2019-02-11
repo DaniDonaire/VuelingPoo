@@ -8,6 +8,9 @@ namespace VuelingPoo
 {
     class Cliente : IDisposable
     {
+        public string Nombre { get; set; }
+
+
         public void Dispose()
         {
             throw new NotImplementedException();

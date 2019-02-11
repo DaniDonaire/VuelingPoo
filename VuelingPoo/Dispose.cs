@@ -8,6 +8,6 @@ namespace VuelingPoo
 {
     class Dispose
     {
-        //Por implementar 
+        //Por implementar (esta en cliente)
     }
 }
