@@ -12,16 +12,8 @@ namespace PooVueling.Tests
     public class CalculadoraTests
     {
 
+        //Para utilizar sus metodos a traves de la variable (Polimorfismo)
         ICalculadora iCalculadora = new Calculadora();
-
-        
-
-
-        [TestMethod()]
-        public void CloneTest()
-        {
-            Assert.Fail();
-        }
 
 
         [DataRow(4, 2, 2)]
@@ -35,6 +27,8 @@ namespace PooVueling.Tests
 
             //Assert.Fail();
         }
+
+
 
         [DataRow(4, 2, 8)]
         [DataRow(9, 3, 27)]
