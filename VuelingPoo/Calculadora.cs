@@ -8,6 +8,9 @@ namespace PooVueling
 {
     public class Calculadora : ICalculadora, ICloneable
     {
+
+
+
         public object Clone()
         {
             throw new NotImplementedException("El metodo no esta implementado aun");
