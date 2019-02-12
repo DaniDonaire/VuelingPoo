@@ -5,17 +5,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Moq;
 
 namespace PooVueling.Tests
 {
     [TestClass()]
     public class CalculadoraTests
     {
-
         //Para utilizar sus metodos a traves de la variable (Polimorfismo)
         ICalculadora iCalculadora = new Calculadora();
 
-
+        
+        //Test de TestFramework de Visual Studio
         [DataRow(4, 2, 2)]
         [DataRow(9, 3, 3)]
         [DataTestMethod()]
@@ -23,9 +24,10 @@ namespace PooVueling.Tests
         {
             Assert.IsTrue(iCalculadora.Division(num1, num2) ==
                 resultado);
-            
+
         }
 
+        //Test Exception
         [DataRow(9, 0, 0)]
         [DataTestMethod()]
         [ExpectedException(typeof(DivideByZeroException))]
@@ -33,11 +35,10 @@ namespace PooVueling.Tests
         {
             Assert.IsTrue(iCalculadora.Division(num1, num2) ==
                 resultado);
-            
+
         }
 
-
-
+        //Test visual
         [DataRow(4, 2, 8)]
         [DataRow(9, 3, 27)]
         [DataRow(7, 1, 7)]
@@ -50,6 +51,7 @@ namespace PooVueling.Tests
             //Assert.Fail();
         }
 
+        //Test visual
         [DataRow(4, 2, 2)]
         [DataRow(9, 3, 6)]
         [DataRow(7, 1, 6)]
@@ -62,6 +64,8 @@ namespace PooVueling.Tests
             //Assert.Fail();
         }
 
+
+        //Test visual
         [DataRow(4, 2, 6)]
         [DataRow(9, 3, 12)]
         [DataRow(7, 1, 8)]

@@ -33,7 +33,7 @@ namespace PooVueling
             {
                 log.Info("Dividiendo entre 0! ", e);
                 Console.WriteLine(e.Message);
-                Console.ReadLine();
+                //Console.ReadLine();
                 throw;
             }
         }

@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{63A68FBB-AC9E-42A0-935A-16FCF1A4FDA3}</ProjectGuid>
+    <ProjectGuid>{131F9E03-ED75-4E84-B39C-B5877F6F3165}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>VuelingPooIntegrationTests</RootNamespace>
-    <AssemblyName>VuelingPooIntegrationTests</AssemblyName>
+    <RootNamespace>VuelingPooPooVueling.UnitTests</RootNamespace>
+    <AssemblyName>VuelingPooPooVueling.UnitTests</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
