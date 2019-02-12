@@ -9,7 +9,7 @@ namespace PooVueling
 
         public static void Main(string[] args)
         {
-            log.Info("Hello dani!");
+            log.Info("Hello dani! Ree");
             Console.WriteLine("Hit enter");
             Console.ReadLine();
 
@@ -27,11 +27,10 @@ namespace PooVueling
             Extension ext = new Extension();
             ext.Ext(nums);
 
-            //Utilizacion dispose using
-            using (Cliente cli = new Cliente());
-
+           
             Console.WriteLine("Pulsa intro para salir");
-            var exit = Console.ReadLine();
+
+            Console.ReadLine();
 
             Environment.Exit(0);
 
