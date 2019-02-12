@@ -8,6 +8,10 @@ namespace PooVueling
 {
     public class Calculadora : ICalculadora, ICloneable
     {
+
+        public int FirstNumber { get; set; }
+        public int SecondNumber { get; set; }
+
         private static readonly log4net.ILog log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
         //private static readonly log4net.ILog logCalculadora = log4net.LogManager.GetLogger(typeof(Calculadora).DeclaringType);
 

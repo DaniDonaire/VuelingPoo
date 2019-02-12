@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PooVueling.NUnit.Integratio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PooVueling.UnitTests", "VuelingPooPooVueling.UnitTests\PooVueling.UnitTests.csproj", "{131F9E03-ED75-4E84-B39C-B5877F6F3165}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.SpecFlow.Unit", "Test.SpecFlow.Unit\Test.SpecFlow.Unit.csproj", "{A3E5DE3D-6957-4376-8C19-E250267E04B2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{131F9E03-ED75-4E84-B39C-B5877F6F3165}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{131F9E03-ED75-4E84-B39C-B5877F6F3165}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{131F9E03-ED75-4E84-B39C-B5877F6F3165}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3E5DE3D-6957-4376-8C19-E250267E04B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3E5DE3D-6957-4376-8C19-E250267E04B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3E5DE3D-6957-4376-8C19-E250267E04B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3E5DE3D-6957-4376-8C19-E250267E04B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +50,7 @@ Global
 		{63A68FBB-AC9E-42A0-935A-16FCF1A4FDA3} = {55BC9205-0E2E-4D23-9075-AAD716AB9F2C}
 		{FC9F46FF-A7DD-4583-8E1E-596C15F586ED} = {55BC9205-0E2E-4D23-9075-AAD716AB9F2C}
 		{131F9E03-ED75-4E84-B39C-B5877F6F3165} = {55BC9205-0E2E-4D23-9075-AAD716AB9F2C}
+		{A3E5DE3D-6957-4376-8C19-E250267E04B2} = {55BC9205-0E2E-4D23-9075-AAD716AB9F2C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C218A9BB-668D-47E0-AFE6-0F31C9DFA6E0}
