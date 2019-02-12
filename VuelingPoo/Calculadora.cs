@@ -19,7 +19,6 @@ namespace PooVueling
         {
             log.Info("Hello logging world!");
             Console.WriteLine("Hit enter");
-            Console.ReadLine();
         }
 
         public object Clone()

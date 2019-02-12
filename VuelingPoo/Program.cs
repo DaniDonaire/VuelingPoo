@@ -9,16 +9,22 @@ namespace PooVueling
 
         public static void Main(string[] args)
         {
+            Calculadora Calc = new Calculadora();
+            Box box = new Box();
+
             ///Main Class
             Console.WriteLine("Bienvenido al programa de consola de Dani");
 
             //Cojemos 3 numeros y los ponemos en boxing
-            object nums;
-            Box box = new Box();
-            nums = box.Boxing();
+            object nums = box.Boxing();
 
-            Calculadora Calc = new Calculadora();
+            //Enviar email por log
+            Calc.Main();
+            Console.ReadLine();
+
+
             Calc.Division(9, 0);
+
 
             //Los ordenamos con el metodo de extension
             Extension ext = new Extension();
