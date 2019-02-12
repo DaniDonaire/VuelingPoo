@@ -5,14 +5,10 @@ namespace PooVueling
 {
     public class Program
     {
-        private static readonly log4net.ILog log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
+        
 
         public static void Main(string[] args)
         {
-            log.Info("Hello dani! Ree");
-            Console.WriteLine("Hit enter");
-            Console.ReadLine();
-
             ///Main Class
             Console.WriteLine("Bienvenido al programa de consola de Dani");
 
@@ -21,7 +17,8 @@ namespace PooVueling
             Box box = new Box();
             nums = box.Boxing();
 
-           
+            Calculadora Calc = new Calculadora();
+            Calc.Division(9, 0);
 
             //Los ordenamos con el metodo de extension
             Extension ext = new Extension();

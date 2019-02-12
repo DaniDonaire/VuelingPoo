@@ -9,6 +9,7 @@ namespace PooVueling
     public class Calculadora : ICalculadora, ICloneable
     {
         private static readonly log4net.ILog log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
+        //private static readonly log4net.ILog logCalculadora = log4net.LogManager.GetLogger(typeof(Calculadora).DeclaringType);
 
         public void Main()
         {
@@ -32,7 +33,7 @@ namespace PooVueling
             {
                 log.Info("Dividiendo entre 0! ", e);
                 Console.WriteLine(e.Message);
-
+                Console.ReadLine();
                 throw;
             }
         }
